@@ -2,11 +2,11 @@
 个人前端开发学习
 
 #### 软件架构
-koa+webpack
+vue+koa+webpack
 
 #### 安装教程
 
-1.  npm install
+1.  npm i 
 npm install -g npm-check-updates
 npm install -g babel-node
 
