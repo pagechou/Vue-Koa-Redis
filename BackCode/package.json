@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack --config config/webpack.config.dev.js --watch",
+    "startbak": "cross-env NODE_ENV=development webpack --config config/webpack.config.dev.js --watch",
     "debug:webpack": "node --inspect-brk ./node_modules/.bin/webpack --inline --progress",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.config.prod.js",
-    "startbak": "npx nodemon --exec babel-node src/index.js",
+    "start": "npx nodemon --exec babel-node src/index.js",
     "buildbak": "cross-env NODE_ENV=prod webpack --config config/webpack.config.pro.js",
     "dev": "cross-env NODE_ENV=development nodemon --exec babel-node --inspect src/index.js",
     "clean": "rimraf dist"

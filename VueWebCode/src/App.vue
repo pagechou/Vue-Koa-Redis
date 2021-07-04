@@ -1,8 +1,6 @@
 <template>
   <div id="app" class="layui-container">
-    <div class="layui-row">
-      <h1>登录页</h1>
-    </div>
+    <fieldset><legend><a name="pane">登录页面</a></legend></fieldset>
     <form class="layui-form" action="">
       <div class="layui-form-item">
         <label class="layui-form-label">输入框</label>
@@ -70,6 +68,20 @@ svg {
   top: -15px;
   margin: 0;
   padding: 0;
+}
+fieldset {
+    border: none;
+    padding: 0;
+    border-top: 1px solid #eee;
+    font-size: large;
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
 }
 </style>
 <script>
