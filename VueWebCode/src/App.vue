@@ -7,14 +7,16 @@
         <div class="layui-input-inline">
           <input
             type="text"
-            name="title"
+            name="name"
             required
             lay-verify="required"
             placeholder="请输入标题"
             autocomplete="off"
             class="layui-input"
+            v-validate="'required|email'"
           />
         </div>
+        <div class="layui-input-inline">{{errors.first('name')}}</div>
       </div>
       <div class="layui-form-item">
         <label class="layui-form-label">密码框</label>
